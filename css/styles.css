@@ -1,0 +1,165 @@
+:root {
+  --black-color: #212121;
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+}
+
+body {
+  font-family: 'Roboto';
+  color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: var(--black-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+/* Logo */
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-color);
+}
+
+.accent {
+  color: var(--blue-color);
+}
+
+/* Site Navigation */
+
+.site-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--blue-color);
+}
+
+/* Contacts */
+
+.contacts {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--blue-color);
+}
+
+/* Main Poto */
+
+.main-photo h1 {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-photo button {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+
+.main-photo button:hover,
+.main-photo button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+
+/* About */
+
+.about h3 {
+  color: var(--black-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.about p {
+  color: var(--grey-color);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Team */
+
+.team h3 {
+  color: var(--black-color);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team p {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Filtr Navigation */
+
+.filtr-nav button {
+  cursor: pointer;
+}
+
+.filtr-nav button:hover,
+.filtr-nav button:focus {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+
+/* Projects */
+
+.projects h2 {
+  color: var(--black-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.projects p {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.footer .logo {
+  color: #ffffff;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+}
