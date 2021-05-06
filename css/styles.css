@@ -2,60 +2,36 @@
   --black-color: #212121;
   --blue-color: #2196f3;
   --grey-color: #757575;
+  --white-color: #ffffff;
+  --background-color: #2f303a;
 }
 
 body {
-  font-family: 'Roboto';
-  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color);
 }
 
-a {
+.link {
   text-decoration: none;
   color: var(--black-color);
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-h2 {
-  color: var(--black-color);
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-  line-height: 1.2;
-}
-
-/* Logo */
-
+/* ========== COMPONENTS ========== */
 .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
-  color: var(--black-color);
+  line-height: 1.17;
 }
 
 .accent {
   color: var(--blue-color);
 }
-
-/* Site Navigation */
-
-.site-nav {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--blue-color);
-}
-
-/* Contacts */
 
 .contacts {
   color: var(--grey-color);
@@ -64,67 +40,87 @@ h2 {
   line-height: 1.5;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--blue-color);
 }
 
-/* Main Poto */
+.title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/* ========== END COMPONENTS ========== */
 
-.main-photo h1 {
+/* ========== HEADER ========== */
+.site-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-color);
+}
+
+/* ========== END HEADER ========== */
+
+/* ========== MAIN ========== */
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
   font-weight: 900;
   font-style: normal;
   font-size: 44px;
-  line-height: 1.2;
+  line-height: 1.36;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
-.main-photo button {
+.hero-btn {
   background-color: var(--blue-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
-.main-photo button:hover,
-.main-photo button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
-/* About */
-
-.about h3 {
-  color: var(--black-color);
+.about-subtitle {
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
-.about p {
+.about-description {
   color: var(--grey-color);
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.71;
 }
 
-/* Team */
-
-.team h3 {
-  color: var(--black-color);
+.team-subtitle {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
-.team p {
+.team-description {
   color: var(--grey-color);
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
-/* Filtr Navigation */
+/* PORTFOLIO.HTML */
 
 .filtr-nav button {
   cursor: pointer;
@@ -133,33 +129,56 @@ h2 {
 .filtr-nav button:hover,
 .filtr-nav button:focus {
   background-color: var(--blue-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
-/* Projects */
-
-.projects h2 {
-  color: var(--black-color);
+.projects-title {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 2;
 }
 
-.projects p {
+.projects-description {
   color: var(--grey-color);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.87;
 }
 
-/* Footer */
+/* ========== END MAIN ========== */
+
+/* ========== FOOTER ========== */
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer .contacts-link {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  opacity: 0.6;
+}
+
+.footer .contacts-link:hover,
+.footer .contacts-link:focus {
+  color: var(--blue-color);
+  opacity: 1;
+}
 
 .footer .logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
-.footer p {
-  color: #ffffff;
+.office-address {
+  color: var(--white-color);
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.17;
 }
+
+.address {
+  font-style: normal;
+}
+
+/* ========== END FOOTER ========== */
